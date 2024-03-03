@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Página Responsiva con Imagen de Fondo, Degradado, Logo y Reloj de Cuenta
+        Regresiva
+    </title>
+
+    <!-- Incluye los enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <!-- Incluye el archivo de estilos externo -->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid mt-3">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="Logo" class="img-fluid" />
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                <div class="contenido">
+                    <div class="row">
+                        <div class="col-3 col-md-3">
+                            <span id="dias"></span>
+                            <div class="etiqueta">Días</div>
+                        </div>
+
+                        <div class="col-3 col-md-3">
+                            <span id="horas"></span>
+                            <div class="etiqueta">Horas</div>
+                        </div>
+
+                        <div class="col-3 col-md-3">
+                            <span id="minutos"></span>
+                            <div class="etiqueta">Min</div>
+                        </div>
+
+                        <div class="col-3 col-md-3">
+                            <span id="segundos"></span>
+                            <div class="etiqueta">Seg</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Nuevo elemento para el texto justificado al centro -->
+                <div class="texto-justificado mt-3">
+                    <p>TRADICIÓN DIGITAL</p>
+                </div>
+
+                <!-- Nuevo elemento para el texto -->
+                <div class="texto mt-3">
+                    <p>
+                        ¡Descubre la app perfecta para tu próximo viaje! Pronto
+                        podrás reservar hoteles, explorar menús de restaurantes,
+                        bares y cafés, conocer paradas de transporte público y
+                        descubrir lugares interesantes en la ciudad. Tu viaje será
+                        más fácil y emocionante.
+                    </p>
+                </div>
+
+                <!-- Nuevo elemento para el segundo bloque de texto -->
+                <div class="texto2 mt-3 text-center">
+                    <p>
+                        ¡Mantente atento para más detalles y prepara tus maletas
+                        para una nueva aventura!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-2 fixed-bottom">
+        <p>&copy; 2024 Tradición Digital. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Incluye el archivo de script externo -->
+    <script src="./js/index.js"></script>
+
+    <!-- Incluye los archivos JS de Bootstrap y Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
